@@ -1,0 +1,4 @@
+@function rem($size) {
+  $remSize: $size / 16px; // 16px browser default
+  @return #{$remSize}rem;
+}
